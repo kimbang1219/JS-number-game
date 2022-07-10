@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OKDDUNG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/OKDDUNG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin:0;
+    padding:0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.warp {
+    text-align: center;
+}
+
+
+h1 {
+    font-size:8vw;
+    text-align:center;
+    font-family: 'PyeongChangPeace-Bold';
+    margin:20px 0;
+}
+
+span {
+    color:#3382f3;
+}
+
+img{
+    width: 700px;
+
+}
+
+#chance-area,button {
+    font-family: 'GmarketSansMedium';
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 80px;
+    width: 450px;
+    font-family: 'GmarketSansMedium';
+    font-size:1.5vw;
+    border-radius: 5px;
+    border:1px solid #bdc2c7;
+    text-align: center;
+    margin-right:5px;
+}
+
+button {
+    padding:0.7rem;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 25px;
+    width: 100px;
+    border:1px solid #bdc2c7;
+    margin-right:5px;
+    font-size:1vw;
+    
+
+}
+#play-btn{
+    background:#325CD9;
+    color:#fff;
+}
+#reset-btn{
+    background:#24BF4B;
+    color:#fff;
+}
+
+#result-area{
+    font-family: 'GmarketSansBold';
+    text-align: center;
+    font-size:1.5vw;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+#chance-area{
+    font-family: 'DungGeunMo';
+    font-size:1.5vw;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    color:#F22771;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+    display: block;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    .btn-box {
+        display: block;
+    }
+    input {
+        width: 90%;
+        height: 80px;
+        margin:0 auto;
+        display: block;
+        font-size:3.5vw;
+
+    }
+    button {
+        width: 90%;
+        margin:0 auto;
+        display: block;
+        border-radius: 10px;
+        margin-top:10px;
+        height: 50px;
+        font-size:2.5vw;
+    }
+
+    #result-area{
+        font-size:4vw;
+    }
+    #chance-area{
+        font-size:4vw;
+    }
+  }
