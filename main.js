@@ -77,16 +77,17 @@ function play(){
 }
 
 function reset(){
+    randomNum();
     userInput.value = ''
     chances =5;
     chanceArea.textContent = `남은 기회:${chances}번`
     resultArea.textContent = '1부터 100까지의 숫자를 입력해보세요'
     resultArea.style.color = '#000'
     imgSrc.src = 'number.gif'
+    gameOver = false
     playBtn.disabled = false
     playBtn.style.opacity = '1'
     history = []
-    randomNum();
 
 
 }
