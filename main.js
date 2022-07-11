@@ -70,6 +70,7 @@ function play(){
         imgSrc.src = 'over.gif'
         resultArea.textContent = `Game Over 정답은 ${pickNum}입니다.`
         resultArea.style.color = '#D90D1E'
+        playBtn.style.opacity = '0.5'
     }
 
 
@@ -84,6 +85,7 @@ function reset(){
     imgSrc.src = 'number.gif'
     playBtn.disabled = false
     playBtn.style.opacity = '1'
+    history = []
     randomNum();
 
 
