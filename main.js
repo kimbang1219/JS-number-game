@@ -23,7 +23,7 @@ function randomNum(){
 }
 
 function play(){
-    let userValue = userInput.value
+    const userValue = userInput.value
 
     if(userValue<1 || userValue>100){
         resultArea.textContent = '범위를 벗어난 숫자입니다.'
