@@ -65,7 +65,6 @@ function play(){
     }
 
     if(gameOver){
-        userInput.value = ''
         playBtn.disabled = true
         imgSrc.src = 'over.gif'
         resultArea.textContent = `Game Over 정답은 ${pickNum}입니다.`
