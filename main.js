@@ -26,7 +26,7 @@ function play(){
     const userValue = userInput.value
 
     if(userValue<1 || userValue>100){
-        resultArea.textContent = '범위를 벗어난 숫자입니다.'
+        resultArea.textContent = '1부터 100 사이의 숫자를 입력 해주세요.'
         resultArea.style.color = '#D90D1E'
         return;
     }
@@ -56,6 +56,7 @@ function play(){
         resultArea.textContent = '정답입니다!'
         resultArea.style.color = '#3382f3'
         playBtn.style.opacity = '0.5'
+        return;
 
     }
 
